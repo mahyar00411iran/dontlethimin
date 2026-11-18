@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DON'T LET HIM IN</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080c12;color:#eee;font-family:Tahoma,Arial,sans-serif}
+header{height:75px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;background:#0b111a;border-bottom:1px solid #303b47}
+.logo{font:bold 19px Georgia;color:#d8b879;direction:ltr}
+nav a{color:#c5cbd2;text-decoration:none;margin:0 12px;font-size:13px}
+.hero{min-height:570px;padding:110px 10%;background:linear-gradient(90deg,#080c12 5%,#080c12dd 45%,#080c1260),linear-gradient(0deg,#080c12,transparent),url('https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1800&q=85') center/cover}
+.tag{color:#d8b879;letter-spacing:4px;font-size:12px}
+h1{font: bold clamp(48px,8vw,90px)/.95 Georgia,serif;direction:ltr;text-align:right;margin:25px 0}
+h1 span{color:#d8b879}
+.hero p{color:#c0c8d1;line-height:2}
+.btn{display:inline-block;background:#d8b879;color:#15120c;padding:14px 25px;text-decoration:none;margin:20px 8px 0 0;font-weight:bold}
+.btn2{background:transparent;color:white;border:1px solid #a7adb5}
+section{padding:75px 9%}
+h2{font-size:30px}
+.muted{color:#9ba8b5;line-height:2}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.card{background:#111a25;border:1px solid #293746;padding:25px}
+.card strong{color:#d8b879;font-size:20px}
+.store{background:#0d141e}
+.packs{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:30px}
+.pack{background:#141e2a;border:1px solid #354252;text-align:center;padding:25px 12px}
+.pack h3{font-size:27px;color:#d8b879;margin-bottom:5px}
+.pack button{background:#303c49;color:#dce1e6;border:0;padding:10px 18px;margin-top:15px}
+.notice{font-size:12px;color:#9ba8b5;line-height:2;margin-top:25px}
+.download{display:flex;justify-content:space-between;align-items:center;gap:20px;background:#111a25;border:1px solid #293746;padding:30px}
+footer{padding:28px 8%;border-top:1px solid #293746;color:#8995a1;display:flex;justify-content:space-between;font-size:12px}
+@media(max-width:750px){nav{display:none}.cards{grid-template-columns:1fr}.packs{grid-template-columns:repeat(2,1fr)}.hero{padding:90px 7%}.download{display:block}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">DON'T LET HIM IN</div>
+<nav>
+<a href="#about">درباره بازی</a>
+<a href="#store">فروشگاه</a>
+<a href="#download">دانلود</a>
+</nav>
+</header>
+
+<div class="hero">
+<div class="tag">THE NIGHT IS WAITING</div>
+<h1>DON'T LET<br><span>HIM IN.</span></h1>
+<p>شب زنده می‌ماند... تو هم می‌توانی؟<br>وارد خانه شو، زنده بمان و مراقب صداهای پشت در باش.</p>
+<a class="btn" href="#download">دریافت بازی</a>
+<a class="btn btn2" href="#store">فروشگاه سکه</a>
+</div>
+
+<section id="about">
+<div class="tag">SURVIVE THE NIGHT</div>
+<h2>در را باز نکن.</h2>
+<p class="muted">در خانه زنده بمان، جعبه موسیقی را مدیریت کن، از توتم‌ها استفاده کن و مراقب هیولاهایی باش که در تاریکی حرکت می‌کنند.</p>
+<div class="cards">
+<div class="card"><strong>01 / بقا</strong><p class="muted">هر صدا ممکن است موقعیت تو را لو بدهد.</p></div>
+<div class="card"><strong>02 / شغل‌ها</strong><p class="muted">نقش و تجهیزات مناسب خودت را انتخاب کن.</p></div>
+<div class="card"><strong>03 / اکتشاف</strong><p class="muted">خانه را بگرد و ابزارهای ضروری را پیدا کن.</p></div>
+</div>
+</section>
+
+<section class="store" id="store">
+<div class="tag">COIN STORE</div>
+<h2>فروشگاه سکه</h2>
+<p class="muted">موجودی اولیه همه بازیکنان: صفر سکه</p>
+<div class="packs">
+<div class="pack"><h3>۱٬۰۰۰</h3><p>سکه</p><b>۲۰٬۰۰۰ تومان</b><br><button disabled>به‌زودی</button></div>
+<div class="pack"><h3>۵٬۰۰۰</h3><p>سکه</p><b>۷۵٬۰۰۰ تومان</b><br><button disabled>به‌زودی</button></div>
+<div class="pack"><h3>۱۵٬۰۰۰</h3><p>سکه</p><b>۱۸۰٬۰۰۰ تومان</b><br><button disabled>به‌زودی</button></div>
+<div class="pack"><h3>۵۰٬۰۰۰</h3><p>سکه</p><b>۴۵۰٬۰۰۰ تومان</b><br><button disabled>به‌زودی</button></div>
+</div>
+<p class="notice">فروشگاه فعلاً نمایشی است. پرداخت واقعی پس از راه‌اندازی سرور امن و اتصال درگاه بانکی فعال خواهد شد.</p>
+</section>
+
+<section id="download">
+<div class="tag">JOIN THE NIGHT</div>
+<h2>آماده‌ای وارد خانه شوی؟</h2>
+<div class="download">
+<div><strong>نسخه ویندوز بازی</strong><p class="muted">لینک دانلود به‌زودی منتشر می‌شود.</p></div>
+<button disabled>به‌زودی</button>
+</div>
+</section>
+
+<footer>
+<span>DON'T LET HIM IN</span>
+<span>© 2026 Official Website</span>
+</footer>
+</body>
+</html>
